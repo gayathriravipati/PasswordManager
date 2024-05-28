@@ -14,7 +14,7 @@ public class User {
 	
 
 	@Id
-	private long uid;
+	private long userId;
 	private String email;
 	
 	
@@ -23,19 +23,19 @@ public class User {
     }
 
     // Parameterized constructor
-    public User(long uid, String email) {
-        this.uid = uid;
+    public User(long userId, String email) {
+        this.userId = userId;
         this.email = email;
     }
 
-    // Getter for uid
-    public long getUid() {
-        return uid;
+    // Getter for userId
+    public long getuserId() {
+        return userId;
     }
 
     // Setter for uid
-    public void setUid(long uid) {
-        this.uid = uid;
+    public void setUid(long userId) {
+        this.userId = userId;
     }
 
     // Getter for email
