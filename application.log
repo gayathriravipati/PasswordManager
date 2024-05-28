@@ -1,24 +1,57 @@
-2024-05-27 17:56:55.190  INFO 38185 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on Gayathris-Air with PID 38185 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
-2024-05-27 17:56:55.197 DEBUG 38185 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
-2024-05-27 17:56:55.199  INFO 38185 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
-2024-05-27 17:56:57.464  INFO 38185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2024-05-27 17:56:57.573  INFO 38185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 2 MongoDB repository interfaces.
-2024-05-27 17:56:58.625  INFO 38185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2024-05-27 17:56:58.665  INFO 38185 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-27 17:56:58.666  INFO 38185 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2024-05-27 17:56:58.776  INFO 38185 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-27 17:56:58.776  INFO 38185 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3392 ms
-2024-05-27 17:56:58.994  INFO 38185 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-2024-05-27 17:56:59.141  INFO 38185 --- [cluster-rtt-ClusterId{value='665501aa701cda384e02aa3c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:99}] to localhost:27017
-2024-05-27 17:56:59.141  INFO 38185 --- [cluster-ClusterId{value='665501aa701cda384e02aa3c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:98}] to localhost:27017
-2024-05-27 17:56:59.147  INFO 38185 --- [cluster-ClusterId{value='665501aa701cda384e02aa3c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=52511041}
-2024-05-27 17:57:00.464  INFO 38185 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2024-05-27 17:57:00.865  WARN 38185 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
-2024-05-27 17:57:00.877  INFO 38185 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-05-27 17:57:00.906  INFO 38185 --- [main] ConditionEvaluationReportLoggingListener : 
+2024-05-28 15:35:56.487  INFO 45915 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 45915 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 15:35:56.496 DEBUG 45915 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 15:35:56.497  INFO 45915 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
+2024-05-28 15:35:57.720  INFO 45915 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 15:35:57.808  INFO 45915 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 15:35:58.384  INFO 45915 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-28 15:35:58.398  INFO 45915 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28 15:35:58.398  INFO 45915 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-05-28 15:35:58.491  INFO 45915 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28 15:35:58.493  INFO 45915 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1844 ms
+2024-05-28 15:35:58.665  INFO 45915 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 15:35:58.781  INFO 45915 --- [cluster-ClusterId{value='6656321e4d90ce3b60f72f51', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:119}] to localhost:27017
+2024-05-28 15:35:58.781  INFO 45915 --- [cluster-rtt-ClusterId{value='6656321e4d90ce3b60f72f51', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:118}] to localhost:27017
+2024-05-28 15:35:58.782  INFO 45915 --- [cluster-ClusterId{value='6656321e4d90ce3b60f72f51', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=30174792}
+2024-05-28 15:35:59.694  INFO 45915 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-28 15:36:00.007  INFO 45915 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-28 15:36:00.014  INFO 45915 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-05-28 15:36:00.026  INFO 45915 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-05-28 15:36:00.051  INFO 45915 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-05-28 15:36:00.166  INFO 45915 --- [main] com.psm.demo.FirstOneApplication         : Started FirstOneApplication in 4.275 seconds (JVM running for 4.983)
+2024-05-28 15:36:24.150  INFO 45915 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 15:36:24.150  INFO 45915 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-28 15:36:24.154  INFO 45915 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-28 15:36:24.230  INFO 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_4
+2024-05-28 15:36:24.275  INFO 45915 --- [http-nio-8081-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:120}] to localhost:27017
+2024-05-28 15:36:24.337  INFO 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 15:36:24.375 DEBUG 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 15:36:24.376 DEBUG 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Encrypted Username: knVxstzzlAS+3NWvubjPjQ==
+2024-05-28 15:36:24.376 DEBUG 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 15:36:24.377 DEBUG 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Encrypted Password: YZ6avEv8MNNbMXPr6w9kCA==
+2024-05-28 15:36:24.443  INFO 45915 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 15:37:16.861  INFO 45915 --- [http-nio-8081-exec-3] com.psm.demo.Controller.StoreController  : Generating sequence for: users_sequence
+2024-05-28 15:37:16.877  INFO 45915 --- [http-nio-8081-exec-3] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 15:55:49.890  INFO 46230 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 46230 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 15:55:49.898 DEBUG 46230 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 15:55:49.898  INFO 46230 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
+2024-05-28 15:55:52.247  INFO 46230 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 15:55:52.367  INFO 46230 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 15:55:53.350  INFO 46230 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-28 15:55:53.391  INFO 46230 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28 15:55:53.391  INFO 46230 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-05-28 15:55:53.489  INFO 46230 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28 15:55:53.489  INFO 46230 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3385 ms
+2024-05-28 15:55:53.684  INFO 46230 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 15:55:53.775  INFO 46230 --- [cluster-ClusterId{value='665636c986acfa32aa74a9ad', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:126}] to localhost:27017
+2024-05-28 15:55:53.775  INFO 46230 --- [cluster-rtt-ClusterId{value='665636c986acfa32aa74a9ad', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:127}] to localhost:27017
+2024-05-28 15:55:53.776  INFO 46230 --- [cluster-ClusterId{value='665636c986acfa32aa74a9ad', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34476292}
+2024-05-28 15:55:55.107  INFO 46230 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-28 15:55:55.638  WARN 46230 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2024-05-28 15:55:55.649  INFO 46230 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-28 15:55:55.672  INFO 46230 --- [main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-05-27 17:57:00.920 ERROR 38185 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2024-05-28 15:55:55.687 ERROR 46230 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
 ***************************
 APPLICATION FAILED TO START
@@ -32,35 +65,213 @@ Action:
 
 Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
 
-2024-05-27 17:57:31.258  INFO 38195 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on Gayathris-Air with PID 38195 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
-2024-05-27 17:57:31.260 DEBUG 38195 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
-2024-05-27 17:57:31.299  INFO 38195 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
-2024-05-27 17:57:33.727  INFO 38195 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2024-05-27 17:57:33.840  INFO 38195 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 2 MongoDB repository interfaces.
-2024-05-27 17:57:34.835  INFO 38195 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2024-05-27 17:57:34.878  INFO 38195 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-27 17:57:34.878  INFO 38195 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2024-05-27 17:57:34.981  INFO 38195 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-27 17:57:34.981  INFO 38195 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3371 ms
-2024-05-27 17:57:35.221  INFO 38195 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-2024-05-27 17:57:35.357  INFO 38195 --- [cluster-rtt-ClusterId{value='665501cf6709cf1a12ebc6c7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:100}] to localhost:27017
-2024-05-27 17:57:35.357  INFO 38195 --- [cluster-ClusterId{value='665501cf6709cf1a12ebc6c7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:101}] to localhost:27017
-2024-05-27 17:57:35.365  INFO 38195 --- [cluster-ClusterId{value='665501cf6709cf1a12ebc6c7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47666875}
-2024-05-27 17:57:36.602  INFO 38195 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2024-05-27 17:57:37.012  INFO 38195 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2024-05-27 17:57:37.016  INFO 38195 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2024-05-27 17:57:37.033  INFO 38195 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2024-05-27 17:57:37.063  INFO 38195 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2024-05-27 17:57:37.248  INFO 38195 --- [main] com.psm.demo.FirstOneApplication         : Started FirstOneApplication in 6.959 seconds (JVM running for 8.259)
-2024-05-27 17:58:28.340  INFO 38195 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-27 17:58:28.342  INFO 38195 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-27 17:58:28.352  INFO 38195 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2024-05-27 17:58:28.645  INFO 38195 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:102}] to localhost:27017
-2024-05-27 17:58:28.813 DEBUG 38195 --- [http-nio-8081-exec-1] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
-2024-05-27 17:58:28.814 DEBUG 38195 --- [http-nio-8081-exec-1] com.psm.demo.Controller.StoreController  : Encrypted Username: 8OXVhN/s3jbHtaQYS90gXQ==
-2024-05-27 17:58:28.814 DEBUG 38195 --- [http-nio-8081-exec-1] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
-2024-05-27 17:58:28.814 DEBUG 38195 --- [http-nio-8081-exec-1] com.psm.demo.Controller.StoreController  : Encrypted Password: ASOFVXepnZfJjZJxyPMprA==
-2024-05-27 17:59:20.462 DEBUG 38195 --- [http-nio-8081-exec-3] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
-2024-05-27 17:59:20.467 DEBUG 38195 --- [http-nio-8081-exec-3] com.psm.demo.Controller.StoreController  : Encrypted Username: 8OXVhN/s3jbHtaQYS90gXQ==
-2024-05-27 17:59:20.467 DEBUG 38195 --- [http-nio-8081-exec-3] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
-2024-05-27 17:59:20.467 DEBUG 38195 --- [http-nio-8081-exec-3] com.psm.demo.Controller.StoreController  : Encrypted Password: ASOFVXepnZfJjZJxyPMprA==
+2024-05-28 15:57:35.966  INFO 46304 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 46304 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 15:57:35.983 DEBUG 46304 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 15:57:35.984  INFO 46304 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
+2024-05-28 15:57:38.399  INFO 46304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 15:57:38.516  INFO 46304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 15:57:39.515  INFO 46304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-28 15:57:39.558  INFO 46304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28 15:57:39.559  INFO 46304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-05-28 15:57:39.687  INFO 46304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28 15:57:39.687  INFO 46304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3491 ms
+2024-05-28 15:57:40.007  INFO 46304 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 15:57:40.099  INFO 46304 --- [cluster-rtt-ClusterId{value='665637340dbb8c1298d7964e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:129}] to localhost:27017
+2024-05-28 15:57:40.099  INFO 46304 --- [cluster-ClusterId{value='665637340dbb8c1298d7964e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:128}] to localhost:27017
+2024-05-28 15:57:40.103  INFO 46304 --- [cluster-ClusterId{value='665637340dbb8c1298d7964e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=40900333}
+2024-05-28 15:57:41.358  INFO 46304 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-28 15:57:41.784  INFO 46304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-28 15:57:41.787  INFO 46304 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-05-28 15:57:41.806  INFO 46304 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-05-28 15:57:41.833  INFO 46304 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-05-28 15:57:42.025  INFO 46304 --- [main] com.psm.demo.FirstOneApplication         : Started FirstOneApplication in 7.251 seconds (JVM running for 8.677)
+2024-05-28 15:58:54.246  INFO 46304 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 15:58:54.251  INFO 46304 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-28 15:58:54.280  INFO 46304 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2024-05-28 15:58:54.403  INFO 46304 --- [http-nio-8081-exec-1] com.psm.demo.Controller.StoreController  : Attempting to delete store entry with userId: 2 and pId: 5
+2024-05-28 15:58:54.565  INFO 46304 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:130}] to localhost:27017
+2024-05-28 15:58:54.589  WARN 46304 --- [http-nio-8081-exec-1] com.psm.demo.Controller.StoreController  : Store entry not found for userId: 2 and pId: 5
+2024-05-28 16:08:41.608  INFO 46304 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Attempting to delete store entry with userId: 2 and pId: 5
+2024-05-28 16:08:41.642  WARN 46304 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Store entry not found for userId: 2 and pId: 5
+2024-05-28 16:17:02.395  INFO 46304 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Attempting to delete store entry with userId: 2 and pId: 5
+2024-05-28 16:17:02.434  WARN 46304 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Store entry not found for userId: 2 and pId: 5
+2024-05-28 16:34:15.061  INFO 47044 --- [main] com.psm.demo.StoreRepoTest               : Starting StoreRepoTest using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 47044 (started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 16:34:15.062 DEBUG 47044 --- [main] com.psm.demo.StoreRepoTest               : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 16:34:15.063  INFO 47044 --- [main] com.psm.demo.StoreRepoTest               : No active profile set, falling back to default profiles: default
+2024-05-28 16:34:15.461  INFO 47044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 16:34:15.518  INFO 47044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 16:34:15.837  INFO 47044 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 16:34:15.890  INFO 47044 --- [cluster-rtt-ClusterId{value='66563fc727b39c25d72f47ee', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:132}] to localhost:27017
+2024-05-28 16:34:15.890  INFO 47044 --- [cluster-ClusterId{value='66563fc727b39c25d72f47ee', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:131}] to localhost:27017
+2024-05-28 16:34:15.891  INFO 47044 --- [cluster-ClusterId{value='66563fc727b39c25d72f47ee', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20802458}
+2024-05-28 16:34:16.538  INFO 47044 --- [main] com.psm.demo.StoreRepoTest               : Started StoreRepoTest in 2.034 seconds (JVM running for 3.253)
+2024-05-28 16:34:16.894  INFO 47044 --- [main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:133}] to localhost:27017
+2024-05-28 16:34:17.131  INFO 47044 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:133}] to localhost:27017 because the pool has been closed.
+2024-05-28 16:45:19.012  INFO 47361 --- [main] com.psm.demo.StoreRepoTest               : Starting StoreRepoTest using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 47361 (started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 16:45:19.013 DEBUG 47361 --- [main] com.psm.demo.StoreRepoTest               : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 16:45:19.014  INFO 47361 --- [main] com.psm.demo.StoreRepoTest               : No active profile set, falling back to default profiles: default
+2024-05-28 16:45:19.386  INFO 47361 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 16:45:19.443  INFO 47361 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 16:45:19.756  INFO 47361 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 16:45:19.805  INFO 47361 --- [cluster-rtt-ClusterId{value='6656425f7126ee76a29e3a27', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:134}] to localhost:27017
+2024-05-28 16:45:19.805  INFO 47361 --- [cluster-ClusterId{value='6656425f7126ee76a29e3a27', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:135}] to localhost:27017
+2024-05-28 16:45:19.805  INFO 47361 --- [cluster-ClusterId{value='6656425f7126ee76a29e3a27', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18056000}
+2024-05-28 16:45:20.442  INFO 47361 --- [main] com.psm.demo.StoreRepoTest               : Started StoreRepoTest in 1.968 seconds (JVM running for 3.158)
+2024-05-28 16:45:20.821  INFO 47361 --- [main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:136}] to localhost:27017
+2024-05-28 16:45:20.991  INFO 47361 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:136}] to localhost:27017 because the pool has been closed.
+2024-05-28 16:55:50.954  INFO 47578 --- [main] com.psm.demo.StoreRepoTest               : Starting StoreRepoTest using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 47578 (started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 16:55:50.956 DEBUG 47578 --- [main] com.psm.demo.StoreRepoTest               : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 16:55:50.956  INFO 47578 --- [main] com.psm.demo.StoreRepoTest               : No active profile set, falling back to default profiles: default
+2024-05-28 16:55:51.349  INFO 47578 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 16:55:51.409  INFO 47578 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 16:55:51.727  INFO 47578 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 16:55:51.778  INFO 47578 --- [cluster-ClusterId{value='665644d710786b563ba5f175', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:138}] to localhost:27017
+2024-05-28 16:55:51.778  INFO 47578 --- [cluster-rtt-ClusterId{value='665644d710786b563ba5f175', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:137}] to localhost:27017
+2024-05-28 16:55:51.779  INFO 47578 --- [cluster-ClusterId{value='665644d710786b563ba5f175', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19617375}
+2024-05-28 16:55:52.411  INFO 47578 --- [main] com.psm.demo.StoreRepoTest               : Started StoreRepoTest in 1.979 seconds (JVM running for 3.183)
+2024-05-28 16:55:52.803  INFO 47578 --- [main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:139}] to localhost:27017
+2024-05-28 16:55:52.991  INFO 47578 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:139}] to localhost:27017 because the pool has been closed.
+2024-05-28 16:57:16.491  INFO 47598 --- [main] com.psm.demo.StoreRepoTest               : Starting StoreRepoTest using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 47598 (started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 16:57:16.492 DEBUG 47598 --- [main] com.psm.demo.StoreRepoTest               : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 16:57:16.492  INFO 47598 --- [main] com.psm.demo.StoreRepoTest               : No active profile set, falling back to default profiles: default
+2024-05-28 16:57:17.140  INFO 47598 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 16:57:17.265  INFO 47598 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 16:57:18.167  INFO 47598 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 16:57:18.279  INFO 47598 --- [cluster-rtt-ClusterId{value='6656452e6624e9200f42b52f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:141}] to localhost:27017
+2024-05-28 16:57:18.279  INFO 47598 --- [cluster-ClusterId{value='6656452e6624e9200f42b52f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:140}] to localhost:27017
+2024-05-28 16:57:18.280  INFO 47598 --- [cluster-ClusterId{value='6656452e6624e9200f42b52f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36811208}
+2024-05-28 16:57:19.106  INFO 47598 --- [main] com.psm.demo.StoreRepoTest               : Started StoreRepoTest in 3.49 seconds (JVM running for 5.792)
+2024-05-28 16:57:19.714  INFO 47598 --- [main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:142}] to localhost:27017
+2024-05-28 16:57:20.165  INFO 47598 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:142}] to localhost:27017 because the pool has been closed.
+2024-05-28 16:58:05.089  INFO 47615 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 47615 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 16:58:05.090 DEBUG 47615 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 16:58:05.090  INFO 47615 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
+2024-05-28 16:58:06.304  INFO 47615 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 16:58:06.382  INFO 47615 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 16:58:06.987  INFO 47615 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-28 16:58:07.000  INFO 47615 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28 16:58:07.000  INFO 47615 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-05-28 16:58:07.088  INFO 47615 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28 16:58:07.088  INFO 47615 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
+2024-05-28 16:58:07.211  INFO 47615 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 16:58:07.348  INFO 47615 --- [cluster-ClusterId{value='6656455f1672e44f02b07397', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:143}] to localhost:27017
+2024-05-28 16:58:07.348  INFO 47615 --- [cluster-rtt-ClusterId{value='6656455f1672e44f02b07397', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:144}] to localhost:27017
+2024-05-28 16:58:07.355  INFO 47615 --- [cluster-ClusterId{value='6656455f1672e44f02b07397', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24592292}
+2024-05-28 16:58:08.236  INFO 47615 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-28 16:58:08.477  INFO 47615 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-28 16:58:08.481  INFO 47615 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-05-28 16:58:08.491  INFO 47615 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-05-28 16:58:08.511  INFO 47615 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-05-28 16:58:08.657  INFO 47615 --- [main] com.psm.demo.FirstOneApplication         : Started FirstOneApplication in 4.082 seconds (JVM running for 4.602)
+2024-05-28 16:59:17.314  INFO 47615 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 16:59:17.315  INFO 47615 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-28 16:59:17.324  INFO 47615 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-05-28 16:59:17.402  INFO 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_4
+2024-05-28 16:59:17.439  INFO 47615 --- [http-nio-8081-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:145}] to localhost:27017
+2024-05-28 16:59:17.493  INFO 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 16:59:17.539 DEBUG 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 16:59:17.540 DEBUG 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Encrypted Username: fj9Uwq7tYfoNUNwsBooQEw==
+2024-05-28 16:59:17.543 DEBUG 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 16:59:17.544 DEBUG 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : Encrypted Password: 79/uk6o3ic5KLAfw16+vsg==
+2024-05-28 16:59:17.660  INFO 47615 --- [http-nio-8081-exec-2] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 17:00:56.849  INFO 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_1
+2024-05-28 17:00:56.865  INFO 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 17:00:56.866 DEBUG 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 17:00:56.866 DEBUG 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Encrypted Username: fj9Uwq7tYfoNUNwsBooQEw==
+2024-05-28 17:00:56.866 DEBUG 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 17:00:56.866 DEBUG 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Encrypted Password: 79/uk6o3ic5KLAfw16+vsg==
+2024-05-28 17:00:56.893  INFO 47615 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 17:01:12.666  INFO 47615 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Attempting to delete store entry with userId: 1 and passwordId: 1
+2024-05-28 17:01:12.771  INFO 47615 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Store entry deleted successfully for userId: 1 and passwordId: 1
+2024-05-28 17:01:39.112  INFO 47615 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Attempting to delete store entry with userId: 2 and passwordId: 4
+2024-05-28 17:01:39.129  WARN 47615 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Store entry not found for userId: 2 and passwordId: 4
+2024-05-28 17:01:55.817  INFO 47615 --- [http-nio-8081-exec-8] com.psm.demo.Controller.StoreController  : Attempting to delete store entry with userId: 4 and passwordId: 2
+2024-05-28 17:01:55.840  INFO 47615 --- [http-nio-8081-exec-8] com.psm.demo.Controller.StoreController  : Store entry deleted successfully for userId: 4 and passwordId: 2
+2024-05-28 17:24:48.754  INFO 48219 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 48219 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 17:24:48.757 DEBUG 48219 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 17:24:48.757  INFO 48219 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
+2024-05-28 17:24:49.979  INFO 48219 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 17:24:50.055  INFO 48219 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 17:24:50.676  INFO 48219 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-28 17:24:50.685  INFO 48219 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28 17:24:50.685  INFO 48219 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-05-28 17:24:50.769  INFO 48219 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28 17:24:50.769  INFO 48219 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1852 ms
+2024-05-28 17:24:50.886  INFO 48219 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 17:24:51.015  INFO 48219 --- [cluster-rtt-ClusterId{value='66564ba27ae3700f9d730026', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:147}] to localhost:27017
+2024-05-28 17:24:51.015  INFO 48219 --- [cluster-ClusterId{value='66564ba27ae3700f9d730026', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:146}] to localhost:27017
+2024-05-28 17:24:51.020  INFO 48219 --- [cluster-ClusterId{value='66564ba27ae3700f9d730026', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18920041}
+2024-05-28 17:24:51.934  INFO 48219 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-28 17:24:52.170  WARN 48219 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2024-05-28 17:24:52.178  INFO 48219 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-28 17:24:52.200  INFO 48219 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-28 17:24:52.213 ERROR 48219 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2024-05-28 17:25:22.329  INFO 48228 --- [main] com.psm.demo.FirstOneApplication         : Starting FirstOneApplication using Java 17.0.10 on nbp-96-19.nbp.ruw.rutgers.edu with PID 48228 (/Users/gayathri/Downloads/demo/target/classes started by gayathri in /Users/gayathri/Downloads/demo)
+2024-05-28 17:25:22.331 DEBUG 48228 --- [main] com.psm.demo.FirstOneApplication         : Running with Spring Boot v2.5.7, Spring v5.3.13
+2024-05-28 17:25:22.331  INFO 48228 --- [main] com.psm.demo.FirstOneApplication         : No active profile set, falling back to default profiles: default
+2024-05-28 17:25:23.621  INFO 48228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-05-28 17:25:23.698  INFO 48228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 MongoDB repository interfaces.
+2024-05-28 17:25:24.310  INFO 48228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-28 17:25:24.319  INFO 48228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28 17:25:24.320  INFO 48228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-05-28 17:25:24.399  INFO 48228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28 17:25:24.399  INFO 48228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1880 ms
+2024-05-28 17:25:24.528  INFO 48228 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2024-05-28 17:25:24.650  INFO 48228 --- [cluster-ClusterId{value='66564bc4ab30993d10af515c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:148}] to localhost:27017
+2024-05-28 17:25:24.649  INFO 48228 --- [cluster-rtt-ClusterId{value='66564bc4ab30993d10af515c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:149}] to localhost:27017
+2024-05-28 17:25:24.654  INFO 48228 --- [cluster-ClusterId{value='66564bc4ab30993d10af515c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19465583}
+2024-05-28 17:25:25.511  INFO 48228 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-05-28 17:25:25.794  INFO 48228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-28 17:25:25.797  INFO 48228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-05-28 17:25:25.809  INFO 48228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-05-28 17:25:25.832  INFO 48228 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-05-28 17:25:25.962  INFO 48228 --- [main] com.psm.demo.FirstOneApplication         : Started FirstOneApplication in 4.149 seconds (JVM running for 4.687)
+2024-05-28 17:26:07.874  INFO 48228 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 17:26:07.874  INFO 48228 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-28 17:26:07.877  INFO 48228 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-28 17:26:07.893  WARN 48228 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+2024-05-28 17:26:25.133  INFO 48228 --- [http-nio-8081-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:150}] to localhost:27017
+2024-05-28 17:27:21.564  INFO 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_3
+2024-05-28 17:27:21.674  INFO 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 17:27:21.756 DEBUG 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 17:27:21.758 DEBUG 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : Encrypted Username: hFqqbk99iJ8xtDL0kosAWQ==
+2024-05-28 17:27:21.758 DEBUG 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 17:27:21.758 DEBUG 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : Encrypted Password: l+c1ArEHXTuzkcXJrJ5j1w==
+2024-05-28 17:27:21.883  INFO 48228 --- [http-nio-8081-exec-4] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 17:27:33.594  INFO 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_2
+2024-05-28 17:27:33.617  INFO 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 17:27:33.619 DEBUG 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 17:27:33.619 DEBUG 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Encrypted Username: hFqqbk99iJ8xtDL0kosAWQ==
+2024-05-28 17:27:33.619 DEBUG 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 17:27:33.619 DEBUG 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : Encrypted Password: l+c1ArEHXTuzkcXJrJ5j1w==
+2024-05-28 17:27:33.627  INFO 48228 --- [http-nio-8081-exec-5] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 17:27:38.172  INFO 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_4
+2024-05-28 17:27:38.192  INFO 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 17:27:38.193 DEBUG 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 17:27:38.194 DEBUG 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Encrypted Username: hFqqbk99iJ8xtDL0kosAWQ==
+2024-05-28 17:27:38.194 DEBUG 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 17:27:38.194 DEBUG 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : Encrypted Password: l+c1ArEHXTuzkcXJrJ5j1w==
+2024-05-28 17:27:38.198  INFO 48228 --- [http-nio-8081-exec-6] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 17:27:45.353  INFO 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Generating sequence for: stores_sequence_2
+2024-05-28 17:27:45.364  INFO 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Generated sequence value
+2024-05-28 17:27:45.369 DEBUG 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Original Username: exampleUser
+2024-05-28 17:27:45.370 DEBUG 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Encrypted Username: hFqqbk99iJ8xtDL0kosAWQ==
+2024-05-28 17:27:45.370 DEBUG 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Original Password: examplePassword
+2024-05-28 17:27:45.370 DEBUG 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : Encrypted Password: l+c1ArEHXTuzkcXJrJ5j1w==
+2024-05-28 17:27:45.375  INFO 48228 --- [http-nio-8081-exec-7] com.psm.demo.Controller.StoreController  : User added successfully with UID
+2024-05-28 17:28:49.267  WARN 48228 --- [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name<LF> at [Source: (PushbackInputStream); line: 3, column: 2]]

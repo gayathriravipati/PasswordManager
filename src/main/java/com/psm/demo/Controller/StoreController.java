@@ -9,6 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,6 +21,7 @@ import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
 import static org.springframework.data.mongodb.core.FindAndModifyOptions.options;
 import java.util.Objects;
+import java.util.Optional;
 
 import com.psm.demo.Model.DatabaseSequence;
 import com.psm.demo.Model.Store;
@@ -83,6 +86,54 @@ public class StoreController {
             e.printStackTrace();
         }
     }
+    
+    @DeleteMapping("/deleteStore/{userId}/{passwordId}")
+    public String deleteStore(@PathVariable int userId, @PathVariable long passwordId) {
+        logger.info("Attempting to delete store entry with userId: {} and passwordId: {}", userId, passwordId);
+        try {
+            Optional<Store> storeOptional = storeRepo.findByCompositeKey(passwordId, userId);
+            if (storeOptional.isPresent()) {
+                storeRepo.deleteByCompositeKey(passwordId, userId);
+                logger.info("Store entry deleted successfully for userId: {} and passwordId: {}", userId, passwordId);
+                return "Store entry deleted successfully";
+            }
+            logger.warn("Store entry not found for userId: {} and passwordId: {}", userId, passwordId);
+            return "Store entry not found";
+        } catch (RuntimeException e) {
+            logger.error("Error deleting store entry for userId: {} and passwordId: {}", userId, passwordId, e);
+            return "Error deleting store entry";
+        }
+    }
+    
+    @PatchMapping("/modifyStore/{userId}/{passwordId}")
+    public String modifyStore(@PathVariable int userId, @PathVariable long passwordId,
+                              @RequestBody Store updatedStore) {
+        try {
+            Optional<Store> storeOptional = storeRepo.findByCompositeKey(passwordId, userId);
+            if (storeOptional.isPresent()) {
+                Store store = storeOptional.get();
+                if (updatedStore.getWebsiteName() != null) {
+                    store.setWebsiteName(updatedStore.getWebsiteName());
+                }
+                if (updatedStore.getWebsiteLink() != null) {
+                    store.setWebsiteLink(updatedStore.getWebsiteLink());
+                }
+                if (updatedStore.getUsername() != null) {
+                    store.setUsername(AESUtil.encrypt(updatedStore.getUsername()));
+                }
+                if (updatedStore.getPassword() != null) {
+                    store.setPassword(AESUtil.encrypt(updatedStore.getPassword()));
+                }
+                storeRepo.save(store);
+                return "Store entry updated successfully";
+            }
+            return "Store entry not found";
+        } catch (RuntimeException e) {
+            e.printStackTrace();
+            return "Error updating store entry";
+        }
+    }
+    
     
     public long generateSequence(String seqName) {
     	logger.info("Generating sequence for: {}", seqName);
